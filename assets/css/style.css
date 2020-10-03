@@ -20,9 +20,11 @@ h1, h2, h3, h4, h5, h6, p, a, ul{
 body{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+  color: #e5e5e5;
 }
 p{
   font-family: 'Poly', serif;
+  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
 }
@@ -33,6 +35,23 @@ img{
 .container{
   width: 940px;
   margin: 0 auto;
+}
+.btn{
+  width: 200px;
+  height: 40px;
+  background-color: #fe0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e5e5;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 4px solid #cf0808;
+  transition: filter .2s;
+
+}
+.btn:hover{
+  filter: brightness(80%);
 }
 /* HEADER */
 .header{
@@ -79,4 +98,27 @@ img{
   line-height: 50px;
   border-bottom: 4px solid #fe0000;
 }
-
+/* HOME */
+.apresentacao{
+  width: 100%;
+  margin-top: 60px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.apresentacao h2{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.apresentacao .btn{
+  margin-top: 10px;
+}
+.apresentacao-home{
+  background: url("../imagens/capa-home.jpg") no-repeat center;
+  background-size: cover;
+  background-color: #6d6a6a;
+}
