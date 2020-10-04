@@ -53,6 +53,19 @@ img{
 .btn:hover{
   filter: brightness(80%);
 }
+.titulo{
+  font-size: 24px;
+  line-height: 30px;
+  color: #1e1e1e;
+  font-weight: bold;
+}
+.titulo::after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #fe0000;
+}
 /* HEADER */
 .header{
   width: 100%;
@@ -121,4 +134,51 @@ img{
   background: url("../imagens/capa-home.jpg") no-repeat center;
   background-size: cover;
   background-color: #6d6a6a;
+}
+.icone-capacete{
+  width: 200px;
+  height: 200px;
+  background-color: #ffe711;
+  border-radius: 50%;
+  position: absolute;
+  top: 210px;
+  right: 210px;
+  z-index: 10;
+}
+/* GALERIA CHAMADA */
+.galeria{
+  margin-top: 30px;
+}
+.grupo1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 490px;
+  margin-right: 20px;
+}
+.fotos{
+  display: flex;
+  margin-top: 20px;
+}
+.foto1{
+  width: 280px;
+  height: 230px;
+  background: #cf0808;
+  margin-right: 20px;
+}
+.foto3{
+  width: 700px;
+  height: 230px;
+  background: #fe0000;
+}
+.foto2{
+  width: 400px;
+  height: 230px;
+  background: #cf0808;
+}
+.grupo2{
+  width: 220px;
+  height: 430px;
+  margin-top: 45px;
+  background-color: #fe0000;
 }
