@@ -52,6 +52,7 @@ img{
   text-transform: uppercase;
   border-bottom: 4px solid #cf0808;
   transition: filter .2s;
+  animation: fadeIn .3s forwards;
 }
 .btn:hover{
   filter: brightness(80%);
@@ -151,6 +152,7 @@ img{
 /* GALERIA CHAMADA */
 .galeria{
   margin-top: 30px;
+  animation: fadeIn .8s both;
 }
 .grupo1{
   display: flex;
@@ -212,6 +214,7 @@ img{
 /* Trilhas chamada */
 .trilhas{
   margin-top: 20px;
+  animation: fadeIn .8s both;
 }
 .trilhas-grupo{
   margin-top: 20px;
@@ -438,4 +441,50 @@ form .btn{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+/* Animação */
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }to{
+    opacity: 1; transform: translate3d(0px, 0, 0);
+  }
+}
+@keyframes identifier {
+  0% { top: 0; }
+  50% { top: 30px; left: 20px; }
+  50% { top: 10px; }
+  100% { top: 0; }
+}
+
+/* Responsivo */
+/* TABLET */
+@media only screen and (min-width: 788px) and (max-width:979px){
+  .icone-capacete{
+    display: none;
+  }
+  .container{
+    width: 700px;
+  }
+  .grupo1{
+    margin: 0 auto;
+  }
+  .grupo2{
+    display: none;
+  }
+  .trilha5{
+    display: none;
+  }
+  .logo-fixo{
+    display: none;
+  }
+}
+/* SMARTPHONE */
+@media only screen and (max-width:787px){
+  body{
+    background-color: #999999;
+  }
 }
