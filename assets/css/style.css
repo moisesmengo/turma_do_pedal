@@ -484,7 +484,142 @@ form .btn{
 }
 /* SMARTPHONE */
 @media only screen and (max-width:787px){
-  body{
-    background-color: #999999;
+  .icone-capacete{
+    display: none;
+  }
+  .container{
+    width: 350px;
+  }
+  .header{
+    height: 100px;
+  }
+  .conteudo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .menu ul{
+    margin-left: 20px;
+  }
+  .apresentacao-home{
+    background: url("../imagens/capa-home-smart.jpg") no-repeat center;
+  }
+  .apresentacao h2{
+    font-size: 1rem;
+  }
+  .fotos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .grupo2{
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .grupo1{
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin-bottom: 0;
+    grid-template-rows: 1fr 1fr;
+  }
+  .grupo1 img{
+    width: 100%;
+  }
+  .foto1, .foto2, .foto3{
+    width: 100%;
+  }
+  .foto3{
+    height: auto;
+  }
+  .galeria .botao-chamada{
+    margin-top: 20px;
+  }
+  .icone-sobre{
+    display: none;
+  }
+  .sobre-bloco ul{
+    padding: 20px 30px;
+  }
+  .trilhas-grupo{
+    display: grid;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+  }
+  .trilhas-grupo .trilha1{
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .trilhas-agrupadas{
+    margin: 0 auto;
+  }
+  .trilhas-grupo .trilha1 img{
+    width: 100%;
+  }
+  .trilha5{
+    margin: 20px auto;
+  }
+  .logo-fixo{
+    display: none;
+  }
+  .contato{
+    height: auto;
+  }
+  .contato-sociais{
+    height: auto;
+  }
+  .conteudo-contato{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .conteudo-contato form, 
+  .conteudo-contato form input, 
+  .conteudo-contato textarea{
+    width: 100%;
+  }
+  .conteudo-contato .sociais{
+    margin-left: 0;
+  }
+  .frase{
+    height: 150px;
+  }
+  .frase blockquote{
+    width: 100%;
+  }
+  .frase blockquote p::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin-top: 5px;
+    margin-left: 60px;
+    background-color: #fe0000;
+  }
+  .footer{
+    height:auto;
+  }
+  .dados-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .contato-footer{
+   width: 50%;
+  }
+  .sobre-footer{
+    width: 50%;
+    margin-top: 20px;
+  }
+  .redes-sociais-footer{
+    
+  }
+  .copy{
+    
   }
 }
