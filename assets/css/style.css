@@ -70,6 +70,15 @@ img{
   height: 4px;
   background: #fe0000;
 }
+.anime{
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: .8s;
+}
+.anime-start{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
 /* HEADER */
 .header{
   width: 100%;
@@ -97,6 +106,7 @@ img{
   justify-self: start;
   align-items: center;
   line-height: 60px;
+  animation: fadeIn .8s both;
 }
 .menu ul li{
   margin-right: 15px;
@@ -148,11 +158,11 @@ img{
   top: 210px;
   right: 210px;
   z-index: 10;
+  animation: fadeIn .8s both;
 }
 /* GALERIA CHAMADA */
 .galeria{
   margin-top: 30px;
-  animation: fadeIn .8s both;
 }
 .grupo1{
   display: flex;
@@ -214,7 +224,6 @@ img{
 /* Trilhas chamada */
 .trilhas{
   margin-top: 20px;
-  animation: fadeIn .8s both;
 }
 .trilhas-grupo{
   margin-top: 20px;
