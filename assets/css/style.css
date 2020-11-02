@@ -466,6 +466,30 @@ form .btn{
   width: 460px;
 }
 
+/* GALERIA */
+
+.galeria-container{
+  margin-top: 80px;
+  max-width: 1400px;
+}
+.galeria_fotos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.galeria_foto{
+  width: 300px;
+  height: 260px;
+  margin: 0 10px 10px 0;
+}
+.galeria_foto img{
+  width: 300px;
+  height: 260px;
+}
+.galeria-container a{
+  margin: 20px auto;
+}
 /* Animação */
 @keyframes fadeIn{
   from{
@@ -645,7 +669,7 @@ form .btn{
     background: url("../imagens/sobre-capa-smart.jpg") no-repeat center;
     background-size: cover;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     padding-top: 0;
   }
@@ -653,5 +677,9 @@ form .btn{
     width: 100%;
     font-size: 16px;
     line-height: 22px;
+  }
+  /* Galeria */
+  .galeria-container{
+    margin-top: 120px;
   }
 }
