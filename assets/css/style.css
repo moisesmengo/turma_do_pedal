@@ -490,6 +490,44 @@ form .btn{
 .galeria-container a{
   margin: 20px auto;
 }
+
+/* TRILHAS */
+.trilhas-container{
+  margin-top: 80px;
+  max-width: 1400px;
+}
+.trilhas-container .mapa{
+  margin-top: 20px;
+}
+.principais-trilhas{
+  margin-top: 30px;
+}
+.principais-trilhas .principais{
+  margin-top: 20px;
+  width: 940px;
+  background-color: #1e1e1e;
+  color: #e5e5e5;
+  display: flex;
+  height: 230px;
+}
+.principais ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.icone-trilhas img{
+  width: 180px;
+  height: 230px;
+}
+.trilha-destaque h3{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.trilha-destaque p{
+  font-size: 14px;
+}
 /* Animação */
 @keyframes fadeIn{
   from{
