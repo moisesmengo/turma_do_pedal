@@ -566,6 +566,12 @@ form .btn{
   .logo-fixo{
     display: none;
   }
+  .trilhas-container img{
+    width: 100%;
+  }
+  .principais-trilhas .principais{
+    width: 700px;
+  }
 }
 /* SMARTPHONE */
 @media only screen and (max-width:787px){
@@ -719,5 +725,23 @@ form .btn{
   /* Galeria */
   .galeria-container{
     margin-top: 120px;
+  }
+  .trilhas-container{
+    margin-top: 120px;
+  }
+  .trilhas-container img{
+    width: 100%;
+  }
+  .icone-trilhas{
+    display: none;
+  }
+  .principais-trilhas .principais{
+    width: 350px;
+  }
+  .principais ul{
+    flex-direction: column;
+    align-items: start;
+    font-size: 14px;
+    padding: 10px;
   }
 }
